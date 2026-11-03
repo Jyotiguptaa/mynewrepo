@@ -3,10 +3,10 @@ on:
   push:
      branches:
         -main
-      pullrequest:
+      pull_request:
         branches:
            -main:
-        workflow_dispatch:
+      workflow_dispatch:
 jobs:
 hello:
 runs-on:ubuntu-latest
